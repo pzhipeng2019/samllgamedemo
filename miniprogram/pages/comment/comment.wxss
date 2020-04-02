@@ -1,0 +1,11 @@
+.detailBox{
+  display: flex;
+}
+.detailImg{
+  width: 235rpx;
+  height: 402rpx;
+  padding-left: 20rpx;
+}
+.detailContent{
+  flex: 1;
+}

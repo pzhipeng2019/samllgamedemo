@@ -1,0 +1,21 @@
+<view class="detailBox">
+<view><image class="detailImg" src="{{detail.images.small}}"></image></view>
+<view class="detailContent">
+<view>片名:{{detail.title}}</view>
+</view>
+</view>
+<view>评价<van-rate value="{{ value }}" bind:change="onChange" /></view>
+<van-cell-group>
+  <van-field
+    value="{{ fieldValue }}"
+    placeholder="请输入用户名"
+    border="{{ false }}"
+    bind:change="fieldonChange"
+  />
+</van-cell-group>
+<van-button type="default" bindtap="uploadImg">上传图片</van-button>
+<view >
+
+<image class="detailImg" src="{{item}}" wx:for="{{imgList}}" wx:key="{{index}}"></image>
+</view>
+<van-button type="danger" size="large" bindtap="submit">评论</van-button>

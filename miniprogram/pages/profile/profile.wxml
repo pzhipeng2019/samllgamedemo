@@ -1,0 +1,7 @@
+<view class="userBox">
+  <view class="userAvatar"><open-data type="userAvatarUrl"></open-data></view>
+  <view class="userNickName"><open-data type="userNickName" open-gid="xxxxxx"></open-data></view>
+</view>
+
+
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>

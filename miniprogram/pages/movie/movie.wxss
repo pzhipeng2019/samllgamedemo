@@ -1,0 +1,26 @@
+/* pages/movie/movie.wxss */
+.movie{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20rpx;
+  display: flex
+  }
+  .movie .movie-img{
+    width: 300rpx;
+    height:100%;
+    overflow: hidden
+  }
+  .movie .movie-img img{
+    width: 100%;
+  }
+  .movie .movie-contnent{
+    flex:1;
+    padding:0 20rpx;
+    font-size: 28rpx;
+  }
+.movie .movie-title{
+  font-size: 1.2rem;
+  line-height:2;
+  font-weight: bold;
+  color: #333333;
+}

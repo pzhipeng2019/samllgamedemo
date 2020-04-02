@@ -1,0 +1,16 @@
+.userBox{
+  background: #E54847;
+  padding: 50rpx
+}
+.userAvatar{
+  border-radius: 50%;
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto 20rpx;
+  overflow: hidden;
+  
+}
+.userNickName{
+  text-align: center;
+  color: #ffffff;
+}
